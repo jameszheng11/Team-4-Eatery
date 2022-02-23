@@ -1,0 +1,102 @@
+body {
+  background-image: linear-gradient(black, gray);
+  color: white;
+  border: 2px solid black;
+  position: relative;
+  top: 25px;
+  margin: 2px;
+}
+
+header {
+  text-align: center;
+  margin: 25px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.nav, .logo, .container-fluid{
+  font-family: 'Exo', sans-serif;
+}
+
+.nav-wrapper a:hover {
+  color: black;
+}
+
+.nav {
+  background-color: rgb(211, 45, 23);
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  min-width: 125px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+}
+
+.logo h1 {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.container-fluid {
+  position: relative;
+  top: 20px;
+  grid-gap: 3px;
+  background-image: url("../images/lantern.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align:center;
+  overflow: auto;
+  border:2px solid black;
+}
+
+.container-fluid img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 9px 12px 4px rgba(0, 0, 0, 0.68);
+}
+
+#subscribe {
+  text-align: center;
+  margin: 35px 0;
+}
+
+#submit {
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: all 1s;
+}
+
+#submit:hover {
+  background: black;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 5px -2px white;
+}
+
